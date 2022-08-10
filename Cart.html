@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<body>
+    <div>
+        <div class="topnav">
+          <a href="Home.html"><img class="navbarimage" src="images/htlogo1.png" alt=""></a>
+          <div class="dropdown">
+            <button class="dropbtn">Products  
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Edibles.html">Edibles</a>
+              <a href="Wax.html">Wax</a>
+              <a href="Flower.html">Flower</a>
+            </div></div>
+          <a href="Contact.html">Contact</a>
+          <a href="Cart.html" class="split">Cart</a>
+        </div></div>
+        <div>
+            <h1>Cart</h1>
+        </div>
+        <div class="shopping-cart">
+
+          <div class="column-labels">
+            <label class="product-image">Image</label>
+            <label class="product-details">Product</label>
+            <label class="product-price">Price</label>
+            <label class="product-quantity">Quantity</label>
+            <label class="product-removal">Remove</label>
+            <label class="product-line-price">Total</label>
+          </div>
+        
+          <div class="product">
+            <div class="product-image">
+              <img src="images/Mango1.jpg">
+            </div>
+            <div class="product-details">
+              <div class="product-title">Mango Smile</div>
+              <p class="product-description">Top Shelf indoor flower. Genetics by Mephisto</p>
+            </div>
+            <div class="product-price">20</div>
+            <div class="product-quantity">
+              <input type="number" value="2" min="1">
+            </div>
+            <div class="product-removal">
+              <button class="remove-product">
+                Remove
+              </button>
+            </div>
+            <div class="product-line-price">40</div>
+          </div>
+        
+          <div class="product">
+            <div class="product-image">
+              <img src="images/Sour.jpg">
+            </div>
+            <div class="product-details">
+              <div class="product-title">Sour Stomper</div>
+              <p class="product-description">Top Shelf indoor flower. Genetics by Mephisto</p>
+            </div>
+            <div class="product-price">20</div>
+            <div class="product-quantity">
+              <input type="number" value="1" min="1">
+            </div>
+            <div class="product-removal">
+              <button class="remove-product">
+                Remove
+              </button>
+            </div>
+            <div class="product-line-price">20</div>
+          </div>
+        
+          <div class="totals">
+            <div class="totals-item">
+            <div class="totals-item totals-item-total">
+              <label>Grand Total</label>
+              <div class="totals-value" id="cart-total">60</div>
+            </div>
+          </div>
+        
+          <button class="checkout">Checkout</button>
+        
+        </div>
+    <script src="site.js"></script>
+</body>
+<footer >
+    <div class="container">
+        &copy; 2022 - High Tech Labs
+    </div>
+</footer>
+</html>
